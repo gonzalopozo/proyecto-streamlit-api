@@ -1,0 +1,25 @@
+[mapbox]
+# Mapbox token placeholder - replace with your actual token
+token = "YOUR_MAPBOX_TOKEN_HERE"
+
+[theme]
+# Dark theme similar to the dashboard shown
+primaryColor = "#6eb52f"  # Green accent color from the image
+backgroundColor = "#0e1117"  # Dark background
+secondaryBackgroundColor = "#262730"  # Slightly lighter background for cards
+textColor = "#fafafa"  # Light text color
+font = "sans serif"
+
+[server]
+# Since both API and Streamlit are running locally, 
+# you generally won't need to modify CORS settings
+# But if you encounter issues, you can uncomment these:
+# enableCORS = true
+# enableXsrfProtection = true
+
+[browser]
+# Auto-open the browser on startup
+serverAddress = "localhost"
+serverPort = 8501
+# Disable usage statistics gathering
+gatherUsageStats = false
